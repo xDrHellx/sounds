@@ -3,22 +3,49 @@ body {
   flex-direction: column;
   margin: 0px 1rem;
   font-family: "Lucida Console", "Courier New", monospace;
+  background-color: rgb(155, 155, 155);
+}
+h1 {
+  text-decoration: underline;
 }
 table {
   border-collapse: collapse;
   width: 100%;
 }
+thead {
+  th:first-child {
+    border-top-left-radius: 10px;
+  }
+  th:last-child {
+    border-top-right-radius: 10px;
+  }
+}
+tr {
+  th {
+    background-color: lightblue;
+  }
+  td {
+    background-color: blanchedalmond;
+  }
+  th:nth-child(2), td:nth-child(2) {
+    border-inline: 1px solid black
+  }
+}
+tr:last-child {
+  td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+  td:last-child {
+    border-bottom-right-radius: 10px;
+  }
+}
+tbody tr {
+  border-top: 1px solid black;
+}
 th, td:first-of-type{
   font-weight: bold;
 }
 th, td {
-  border: 1px solid black;
   padding: 0.2rem;
   text-align: start;
-}
-tr>th {
-  background-color: lightblue;
-}
-tr>td {
-  background-color: blanchedalmond;
 }
