@@ -11,11 +11,11 @@ const sounds = [
     ],
     ['Resident Evil 3: Nemesis', 
         ['barbecued', 'Carlos', 'Are you crazy?! You could have barbecued both of us!'],
+        ['ptsd', 'Mikhail', "They're coming! Get ready!"],
+        ['ptsd2', 'Mikhail', 'Fire..! Fire! Stick together!'],
         ['couldntsave', 'Mikhail', 'I could not... save... my men!'],
         ['notgoing', 'Dario', "NO! I'm not going anywhere!"],
-        ['notleaving', 'Dario', "I told you! I'm not leaving! NEVER!"],
-        ['ptsd', 'Mikhail', "They're coming! Get ready!"],
-        ['ptsd2', 'Mikhail', 'Fire..! Fire! Stick together!']
+        ['notleaving', 'Dario', "I told you! I'm not leaving! NEVER!"]
     ],
     ['Resident Evil',
         ['monsters', 'Rebecca', 'LOOK AT THOSE MONSTEEEERRS!!'],
