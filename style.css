@@ -27,9 +27,12 @@ tr {
   td {
     background-color: blanchedalmond;
   }
-  th:nth-child(2), td:nth-child(2) {
-    border-inline: 1px solid black
+  &:nth-child(even) td {
+    background-color: rgba(255, 235, 205, 0.829);
   }
+  /* th:nth-child(2), td:nth-child(2) {
+    border-inline: 1px solid black
+  } */
 }
 tr:last-child {
   td:first-child {
